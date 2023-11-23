@@ -2,8 +2,8 @@
 
 pipeline{
 
-    //agent any
-	agent { label 'Demo_Slave-Node' }
+    agent any
+	//agent { label 'Demo_Slave-Node' }
 	
     parameters{
 
