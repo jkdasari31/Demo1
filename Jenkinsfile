@@ -2,8 +2,9 @@
 
 pipeline{
 
-    agent any
-
+    //agent any
+	agent { label 'Demo_Slave-Node' }
+	
     parameters{
 
         choice(name: 'action', choices: 'create\ndelete', description: 'Choose create/Destroy')
